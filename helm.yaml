@@ -1,3 +1,4 @@
 appName: payment
 service:
+  type: ClusterIP
   targetPort: 8080
