@@ -1,1 +1,3 @@
 appName: payment
+service:
+  targetPort: 8080
