@@ -13,5 +13,6 @@ configMap:
     USER_PORT: "8080"
     AMQP_HOST: rabbitmq-prod.roboshop.internal
     AMQP_USER: roboshop
-    AMQP_PASS: roboshop123
+externalSecret:
+  enabled: true
 
