@@ -15,4 +15,16 @@ configMap:
     AMQP_USER: roboshop
 externalSecret:
   enabled: true
+resources:
+  requests:
+    memory: "1024Mi"
+    cpu: "750m"
+  limits:
+    memory: "1500Mi"
+    cpu: "1000m"
+hpa:
+  min: 2
+  max: 10
+  avgCpu: 60
+
 
