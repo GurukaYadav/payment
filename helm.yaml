@@ -38,10 +38,10 @@ probes:
   endpoint: /health
   port: 8080
   liveness:
-    initialDelaySeconds: 5
+    initialDelaySeconds: 10
     periodSeconds: 10
   readiness:
-    initialDelaySeconds: 5
+    initialDelaySeconds: 20
     periodSeconds: 10
 
 
